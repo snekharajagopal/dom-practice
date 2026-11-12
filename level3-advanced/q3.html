@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="q3.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>My Photo Gallery</h1>
+
+    <button class="filter" data-filter="all">All</button>
+    <button class="filter" data-filter="beaches">Beaches</button>
+    <button class="filter" data-filter="mountains">Mountains</button>
+
+    <div id="gallery">
+      <div class="card" data-category="beaches">
+        <img src="images/beach1.jpg" alt="Beach" width="500px" />
+        <p>Beach 1</p>
+      </div>
+
+      <div class="card" data-category="mountains">
+        <img src="images/mountain1.jpg" alt="Mountain" width="500px" />
+        <p>Mountain 1</p>
+      </div>
+
+      <div class="card" data-category="beaches">
+        <img src="images/beach2.jpg" alt="Beach" width="500px" />
+        <p>Beach 2</p>
+      </div>
+
+      <div class="card" data-category="mountains">
+        <img src="images/mountain2.jpg" alt="Mountain" width="500px" />
+        <p>Mountain 2</p>
+      </div>
+    </div>
+    <script src="q3.js"></script>
+  </body>
+</html>
